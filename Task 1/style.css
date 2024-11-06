@@ -1,0 +1,13 @@
+
+
+.col-lg-6{
+    width: auto;
+    height: 80vh;
+    box-shadow: 1px 1px 1px #ddd;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+h1{
+    font-weight: 150;
+}

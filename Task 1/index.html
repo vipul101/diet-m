@@ -1,0 +1,38 @@
+
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 text-center">
+            <h1 class="my-2">Profile</h1>
+            <div class="my-2">
+                <img src="../../assets/profile/{{currentUser.picture}}" class="rounded-circle" style="width: 150px;"
+                alt="Avatar" />
+            </div>
+            <div class="row text-start">
+                <div class="col my-2">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control form-control-lg" id="name" placeholder="Enter name" [(ngModel)]="currentUser.name" [disabled]="true">
+                </div>
+                <div class="col my-2">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control form-control-lg" id="username" placeholder="Enter username" [(ngModel)]="currentUser.username" [disabled]="true">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col my-2">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control form-control-lg" id="email" placeholder="Enter email" [(ngModel)]="currentUser.email" [disabled]="true">
+                </div>
+            </div>
+            <div class="row text-start">
+                <div class="col my-2">
+                    <label for="gender">Gender</label>
+                    <input type="text" class="form-control form-control-lg" id="gender" placeholder="Enter name" [(ngModel)]="currentUser.gender" [disabled]="true">
+                </div>
+                <div class="col my-2">
+                    <label for="name">Designation</label>
+                    <input type="text" class="form-control form-control-lg" id="name" placeholder="Enter name" [(ngModel)]="currentUser.designation" [disabled]="true">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
