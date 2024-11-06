@@ -1,0 +1,2 @@
+$box-shadow: 0.1px -0px 3px #aaa;
+$primary: #494ca2;
